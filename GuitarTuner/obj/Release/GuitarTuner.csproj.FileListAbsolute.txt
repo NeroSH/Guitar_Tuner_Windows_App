@@ -1,0 +1,35 @@
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Release\FftGuitarTuner.exe
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Release\FftGuitarTuner.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Release\SoundAnalysis.dll
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Release\SoundCapture.dll
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Release\SoundAnalysis.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Release\SoundCapture.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\FftGuitarTuner.FrequenciesScale.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\FftGuitarTuner.MainForm.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\FftGuitarTuner.Properties.Resources.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\FftGuitarTuner.SelectDeviceForm.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\FftGuitarTuner.exe
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Release\FftGuitarTuner.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\SoundAnalysis.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\SoundCapture.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\Microsoft.DirectX.DirectSound.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\Microsoft.DirectX.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\SoundAnalysis.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\SoundCapture.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\Microsoft.DirectX.DirectSound.xml
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\Microsoft.DirectX.xml
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.csprojAssemblyReference.cache
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.csproj.GenerateResource.cache
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.csproj.CoreCompileInputs.cache
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.csproj.CopyComplete
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\GuitarTuner.exe.config
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\GuitarTuner.exe
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Release\GuitarTuner.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.FrequenciesScale.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.MainForm.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.Properties.Resources.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.SelectDeviceForm.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.exe
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Release\GuitarTuner.pdb

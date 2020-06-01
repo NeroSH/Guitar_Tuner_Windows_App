@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\GuitarTuner\SoundAnalysis\bin\Release\SoundAnalysis.dll
+C:\Users\User\Desktop\GuitarTuner\SoundAnalysis\bin\Release\SoundAnalysis.pdb
+C:\Users\User\Desktop\GuitarTuner\SoundAnalysis\obj\Release\SoundAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\GuitarTuner\SoundAnalysis\obj\Release\SoundAnalysis.dll
+C:\Users\User\Desktop\GuitarTuner\SoundAnalysis\obj\Release\SoundAnalysis.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\bin\Release\SoundAnalysis.dll
+D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\bin\Release\SoundAnalysis.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Release\SoundAnalysis.csprojAssemblyReference.cache
+D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Release\SoundAnalysis.csproj.CoreCompileInputs.cache
+D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Release\SoundAnalysis.dll
+D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Release\SoundAnalysis.pdb

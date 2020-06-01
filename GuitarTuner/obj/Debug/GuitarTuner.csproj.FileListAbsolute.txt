@@ -1,0 +1,49 @@
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\FftGuitarTuner.exe
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\FftGuitarTuner.pdb
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundAnalysis.dll
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundCapture.dll
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundAnalysis.pdb
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundCapture.pdb
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\GuitarTuner.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.FrequenciesScale.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.MainForm.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.Properties.Resources.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.SelectDeviceForm.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\GuitarTuner.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.exe
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\FftGuitarTuner.exe
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\FftGuitarTuner.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Debug\FftGuitarTuner.exe
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Debug\FftGuitarTuner.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Debug\SoundAnalysis.dll
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Debug\SoundCapture.dll
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Debug\SoundAnalysis.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\bin\Debug\SoundCapture.pdb
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\FftGuitarTuner.FrequenciesScale.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\FftGuitarTuner.MainForm.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\FftGuitarTuner.Properties.Resources.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\FftGuitarTuner.SelectDeviceForm.resources
+C:\Users\User\Desktop\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.csproj.GenerateResource.Cache
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\SoundAnalysis.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\SoundCapture.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\Microsoft.DirectX.DirectSound.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\Microsoft.DirectX.dll
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\SoundAnalysis.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\SoundCapture.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\Microsoft.DirectX.DirectSound.xml
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\Microsoft.DirectX.xml
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.csprojAssemblyReference.cache
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.csproj.GenerateResource.cache
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.csproj.CoreCompileInputs.cache
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.csproj.CopyComplete
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\GuitarTuner.exe.config
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\GuitarTuner.exe
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\bin\Debug\GuitarTuner.pdb
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.FrequenciesScale.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.MainForm.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.Properties.Resources.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.SelectDeviceForm.resources
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.exe
+D:\DonSTU\(4) Практика\GuitarTuner\FftGuitarTuner\obj\Debug\GuitarTuner.pdb

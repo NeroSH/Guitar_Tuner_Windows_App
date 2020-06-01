@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\FftGuitarTuner.exe
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\FftGuitarTuner.pdb
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundAnalysis.dll
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundCapture.dll
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundAnalysis.pdb
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\bin\Debug\SoundCapture.pdb
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.FrequenciesScale.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.MainForm.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.Properties.Resources.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.SelectDeviceForm.resources
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.exe
+C:\Users\User\Desktop\FftGuitarTuner_src\FftGuitarTuner\obj\Debug\FftGuitarTuner.pdb
