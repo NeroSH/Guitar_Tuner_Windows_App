@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace GuitarTuner
 {
@@ -15,7 +11,7 @@ namespace GuitarTuner
         const double MaxFrequency = 1200;
         const double AFrequency = 440;
         static double ToneStep = Math.Pow(2, 1.0 / 12);
-        static ScaleLabel[] Labels = 
+        static readonly ScaleLabel[] Labels =
         {
              new ScaleLabel() { Title = "E", Frequency =  82.4069, Color=Color.LightGreen},
              new ScaleLabel() { Title = "A", Frequency = 110.0000, Color=Color.LightGreen},
@@ -24,7 +20,7 @@ namespace GuitarTuner
              new ScaleLabel() { Title = "B", Frequency = 246.9417, Color=Color.LightGreen},
              new ScaleLabel() { Title = "E", Frequency = 329.6276, Color=Color.LightGreen},
              new ScaleLabel() { Title = "",  Frequency = 440.0000, Color=Color.Silver}
-        };        
+        };
 
         double currentFrequency;
 
@@ -35,8 +31,8 @@ namespace GuitarTuner
             set
             {
                 if (currentFrequency != value)
-                { 
-                    currentFrequency = value; Invalidate(); 
+                {
+                    currentFrequency = value; Invalidate();
                 }
             }
         }
@@ -92,7 +88,7 @@ namespace GuitarTuner
             //base.OnPaint(e);
 
             int minStep = (int)Math.Floor(GetToneStep(MinFrequency));
-            int maxStep = (int)Math.Ceiling( GetToneStep(MaxFrequency) );
+            int maxStep = (int)Math.Ceiling(GetToneStep(MaxFrequency));
 
             int center = Width / 2;
 
@@ -123,7 +119,7 @@ namespace GuitarTuner
                 SizeF titleSize = e.Graphics.MeasureString(label.Title, Font);
 
                 e.Graphics.DrawString(label.Title, Font, Brushes.Black,
-                    new PointF(Width - DisplayPadding - maxTextWidth / 2 - titleSize.Width / 2 , 
+                    new PointF(Width - DisplayPadding - maxTextWidth / 2 - titleSize.Width / 2,
                         labelPosition - titleSize.Height / 2));
             }
 
@@ -144,14 +140,14 @@ namespace GuitarTuner
                 double sliderStep = GetToneStep(CurrentFrequency);
                 float sliderPosition = (float)(stepSize * (maxStep - sliderStep) + DisplayPadding);
 
-                e.Graphics.FillPolygon(sliderBrush1, new PointF[] 
+                e.Graphics.FillPolygon(sliderBrush1, new PointF[]
                 {
                     new PointF(center - 10, sliderPosition),
                     new PointF(center, sliderPosition - 5),
                     new PointF(center, sliderPosition + 5),
                     new PointF(center + 10, sliderPosition)
                 });
-                e.Graphics.FillPolygon(sliderBrush2, new PointF[] 
+                e.Graphics.FillPolygon(sliderBrush2, new PointF[]
                 {
                     new PointF(center - 10, sliderPosition),
                     new PointF(center, sliderPosition + 5),
@@ -167,11 +163,11 @@ namespace GuitarTuner
             return Math.Log(frequency / AFrequency, ToneStep);
         }
 
-        class ScaleLabel
-        {
-            public string Title;
-            public double Frequency;
-            public Color Color;
-        }
+    }
+    class ScaleLabel
+    {
+        public string Title;
+        public double Frequency;
+        public Color Color;
     }
 }
