@@ -14,3 +14,14 @@ D:\DonSTU\(4) Практика\GuitarTuner\SoundCapture\obj\Release\SoundCapture
 D:\DonSTU\(4) Практика\GuitarTuner\SoundCapture\obj\Release\SoundCapture.csproj.CopyComplete
 D:\DonSTU\(4) Практика\GuitarTuner\SoundCapture\obj\Release\SoundCapture.dll
 D:\DonSTU\(4) Практика\GuitarTuner\SoundCapture\obj\Release\SoundCapture.pdb
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\bin\Release\SoundCapture.dll
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\bin\Release\SoundCapture.pdb
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\bin\Release\Microsoft.DirectX.DirectSound.dll
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\bin\Release\Microsoft.DirectX.dll
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\bin\Release\Microsoft.DirectX.DirectSound.xml
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\bin\Release\Microsoft.DirectX.xml
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\obj\Release\SoundCapture.csprojAssemblyReference.cache
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\obj\Release\SoundCapture.csproj.CoreCompileInputs.cache
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\obj\Release\SoundCapture.csproj.CopyComplete
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\obj\Release\SoundCapture.dll
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundCapture\obj\Release\SoundCapture.pdb

@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GuitarTuner"
   ],
+  "SelectedNode": "\\GuitarTuner\\SoundFrequencyInfoSource.cs",
   "PreviewInSolutionExplorer": false
 }
