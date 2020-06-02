@@ -165,5 +165,10 @@ namespace GuitarTuner
         {
             Process.Start("help.rtf");
         }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

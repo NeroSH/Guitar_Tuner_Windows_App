@@ -164,6 +164,7 @@ namespace GuitarTuner
         }
 
     }
+
     class ScaleLabel
     {
         public string Title;
