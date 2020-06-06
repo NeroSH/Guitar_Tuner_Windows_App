@@ -31,15 +31,16 @@ namespace SoundAnalysis
             return new ComplexNumber(n1.Re + n2.Re, n1.Im + n2.Im);
         }
 
+        public static ComplexNumber operator -(ComplexNumber n)
+        {
+            return new ComplexNumber(-n.Re, -n.Im);
+        }
+
         public static ComplexNumber operator -(ComplexNumber n1, ComplexNumber n2)
         {
             return new ComplexNumber(n1.Re - n2.Re, n1.Im - n2.Im);
         }
 
-        public static ComplexNumber operator -(ComplexNumber n)
-        {
-            return new ComplexNumber(-n.Re, -n.Im);
-        }
 
         public static implicit operator ComplexNumber(double n)
         {

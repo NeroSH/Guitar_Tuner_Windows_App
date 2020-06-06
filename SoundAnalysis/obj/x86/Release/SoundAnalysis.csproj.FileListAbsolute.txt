@@ -1,0 +1,3 @@
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\bin\x86\Release\SoundAnalysis.dll
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\obj\x86\Release\SoundAnalysis.csproj.CoreCompileInputs.cache
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\obj\x86\Release\SoundAnalysis.dll

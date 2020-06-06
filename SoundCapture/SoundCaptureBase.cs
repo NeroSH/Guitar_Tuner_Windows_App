@@ -9,8 +9,8 @@ namespace SoundCapture
     //Базовый класс для захвата аудио сэмплов.
     public abstract class SoundCaptureBase : IDisposable
     {
-        const int BufferSeconds = 3;
         const int NotifyPointsInSecond = 2;
+        const int BufferSeconds = 3;
 
         //изменение следующих двух полей потребует изменения кода
         const int BitsPerSample = 16; 

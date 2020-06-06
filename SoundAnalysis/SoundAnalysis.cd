@@ -1,2 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoundAnalysis.FftAlgorithm">
+    <Position X="3.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>FftAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SoundAnalysis.ComplexNumber">
+    <Position X="0.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQCAAAAgAMYBEAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ComplexNumber.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

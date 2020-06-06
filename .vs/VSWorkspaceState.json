@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GuitarTuner"
+    "\\GuitarTuner",
+    "\\GuitarTuner\\Properties",
+    "\\SoundAnalysis",
+    "\\SoundCapture"
   ],
-  "SelectedNode": "\\GuitarTuner\\Program.cs",
+  "SelectedNode": "\\GuitarTuner\\Properties\\Resources.resx",
   "PreviewInSolutionExplorer": false
 }

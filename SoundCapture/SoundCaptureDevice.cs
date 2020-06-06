@@ -9,7 +9,6 @@ namespace SoundCapture
     public class SoundCaptureDevice
     {
         Guid id;
-
         string name;
 
         public bool IsDefault
@@ -40,6 +39,7 @@ namespace SoundCapture
             List<SoundCaptureDevice> devices = new List<SoundCaptureDevice>();
             foreach (DeviceInformation captureDevice in captureDevices)
             {
+                // здесь может возникнуть ошибка если сборка была произведена на плафторму x64
                 devices.Add(new SoundCaptureDevice(captureDevice.DriverGuid, captureDevice.Description));
             }
             return devices.ToArray();
