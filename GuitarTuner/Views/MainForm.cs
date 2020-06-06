@@ -164,10 +164,10 @@ namespace GuitarTuner
 
         private void toolStrip_SelectIndexChanged(object sender, EventArgs e)
         {
+            frequenciesScale1.SignalDetected = true;
             switch (toolStripComboBox1.SelectedIndex)
             {
                 case 0:
-                    frequenciesScale1.SignalDetected = true;
                     frequenciesScale1.SetNewLabels(new FrequenciesScale.ScaleLabel[]{
                         new FrequenciesScale.ScaleLabel() { Title = "E", Frequency = 82.4069, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "A", Frequency = 110.0000, Color = Color.LightGreen },
@@ -176,12 +176,9 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "B", Frequency = 246.9417, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "E", Frequency = 329.6276, Color = Color.LightGreen },
                     });
-                    frequenciesScale1.Update();
-                    frequenciesScale1.SignalDetected = false;
                     break;
 
                 case 1:
-                    frequenciesScale1.SignalDetected = true;
                     frequenciesScale1.SetNewLabels(new FrequenciesScale.ScaleLabel[]{
                         new FrequenciesScale.ScaleLabel() { Title = "C", Frequency = 65.4066, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "G", Frequency = 97.9997, Color = Color.LightGreen },
@@ -190,12 +187,9 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "C", Frequency = 261.6317, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "E", Frequency = 329.6276, Color = Color.LightGreen },
                     });
-                    frequenciesScale1.Update();
-                    frequenciesScale1.SignalDetected = false;
                     break;
 
                 case 2:
-                    frequenciesScale1.SignalDetected = true;
                     frequenciesScale1.SetNewLabels(new FrequenciesScale.ScaleLabel[]{
                         new FrequenciesScale.ScaleLabel() { Title = "D", Frequency = 73.9122, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "A", Frequency = 110.000, Color = Color.LightGreen },
@@ -204,12 +198,9 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "a", Frequency = 220.000, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "d", Frequency = 293.6600, Color = Color.LightGreen },
                     });
-                    frequenciesScale1.Update();
-                    frequenciesScale1.SignalDetected = false;
                     break;
 
                 case 3:
-                    frequenciesScale1.SignalDetected = true;
                     frequenciesScale1.SetNewLabels(new FrequenciesScale.ScaleLabel[]{
                         new FrequenciesScale.ScaleLabel() { Title = "D", Frequency = 73.9122, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "G", Frequency = 98.0000, Color = Color.LightGreen },
@@ -218,12 +209,9 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "B", Frequency = 246.9400, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "D", Frequency = 293.6600, Color = Color.LightGreen },
                     });
-                    frequenciesScale1.Update();
-                    frequenciesScale1.SignalDetected = false;
                     break;
 
                 case 4:
-                    frequenciesScale1.SignalDetected = true;
                     frequenciesScale1.SetNewLabels(new FrequenciesScale.ScaleLabel[]{
                         new FrequenciesScale.ScaleLabel() { Title = "C", Frequency = 65.4100, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "G", Frequency = 98.0000, Color = Color.LightGreen },
@@ -232,12 +220,9 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "A", Frequency = 220.0000, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "D", Frequency = 293.6600, Color = Color.LightGreen },
                     });
-                    frequenciesScale1.Update();
-                    frequenciesScale1.SignalDetected = false;
                     break;
 
                 case 5:
-                    frequenciesScale1.SignalDetected = true;
                     frequenciesScale1.SetNewLabels(new FrequenciesScale.ScaleLabel[]{
                         new FrequenciesScale.ScaleLabel() { Title = "D", Frequency = 73.9122, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "A", Frequency = 110.000, Color = Color.LightGreen },
@@ -246,12 +231,9 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "B", Frequency = 246.9400, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "E", Frequency = 329.6300, Color = Color.LightGreen },
                     });
-                    frequenciesScale1.Update();
-                    frequenciesScale1.SignalDetected = false;
                     break;
 
                 case 6:
-                    frequenciesScale1.SignalDetected = true;
                     frequenciesScale1.SetNewLabels(new FrequenciesScale.ScaleLabel[]{
                         new FrequenciesScale.ScaleLabel() { Title = "D", Frequency = 73.9122, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "A", Frequency = 110.000, Color = Color.LightGreen },
@@ -260,12 +242,11 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "B", Frequency = 246.9400, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "D", Frequency = 293.6500, Color = Color.LightGreen },
                     });
-                    frequenciesScale1.Update();
-                    frequenciesScale1.SignalDetected = false;
                     break;
 
-                default: return;
+                default: break;
             }
+            frequenciesScale1.SignalDetected = false;
         }
     }
 }
