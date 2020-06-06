@@ -42,13 +42,15 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.frequenciesScale1 = new GuitarTuner.FrequenciesScale(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(107, 328);
+            this.closeButton.Location = new System.Drawing.Point(248, 200);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 5;
@@ -58,7 +60,7 @@
             // 
             // listenButton
             // 
-            this.listenButton.Location = new System.Drawing.Point(107, 32);
+            this.listenButton.Location = new System.Drawing.Point(248, 141);
             this.listenButton.Name = "listenButton";
             this.listenButton.Size = new System.Drawing.Size(75, 23);
             this.listenButton.TabIndex = 1;
@@ -79,7 +81,7 @@
             // 
             // frequencyTextBox
             // 
-            this.frequencyTextBox.Location = new System.Drawing.Point(107, 157);
+            this.frequencyTextBox.Location = new System.Drawing.Point(25, 160);
             this.frequencyTextBox.Name = "frequencyTextBox";
             this.frequencyTextBox.ReadOnly = true;
             this.frequencyTextBox.Size = new System.Drawing.Size(54, 20);
@@ -90,16 +92,16 @@
             // hzLabel
             // 
             this.hzLabel.AutoSize = true;
-            this.hzLabel.Location = new System.Drawing.Point(167, 160);
+            this.hzLabel.Location = new System.Drawing.Point(81, 164);
             this.hzLabel.Name = "hzLabel";
-            this.hzLabel.Size = new System.Drawing.Size(18, 13);
+            this.hzLabel.Size = new System.Drawing.Size(19, 13);
             this.hzLabel.TabIndex = 4;
-            this.hzLabel.Text = "гц";
+            this.hzLabel.Text = "Гц";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(102, 182);
+            this.label1.Location = new System.Drawing.Point(129, 141);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 6;
@@ -107,7 +109,7 @@
             // 
             // closeFrequencyTextBox
             // 
-            this.closeFrequencyTextBox.Location = new System.Drawing.Point(107, 200);
+            this.closeFrequencyTextBox.Location = new System.Drawing.Point(134, 159);
             this.closeFrequencyTextBox.Name = "closeFrequencyTextBox";
             this.closeFrequencyTextBox.ReadOnly = true;
             this.closeFrequencyTextBox.Size = new System.Drawing.Size(54, 20);
@@ -118,15 +120,15 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(167, 203);
+            this.label2.Location = new System.Drawing.Point(191, 163);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 13);
+            this.label2.Size = new System.Drawing.Size(19, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "гц";
+            this.label2.Text = "Гц";
             // 
             // noteNameTextBox
             // 
-            this.noteNameTextBox.Location = new System.Drawing.Point(128, 226);
+            this.noteNameTextBox.Location = new System.Drawing.Point(155, 185);
             this.noteNameTextBox.Name = "noteNameTextBox";
             this.noteNameTextBox.ReadOnly = true;
             this.noteNameTextBox.Size = new System.Drawing.Size(33, 20);
@@ -135,7 +137,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(100, 138);
+            this.label3.Location = new System.Drawing.Point(18, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 13);
             this.label3.TabIndex = 9;
@@ -143,12 +145,13 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.справкаToolStripMenuItem,
             this.toolStripComboBox1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(207, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(345, 27);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -173,20 +176,43 @@
             this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
             this.toolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.toolStrip_SelectIndexChanged);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label4.Location = new System.Drawing.Point(17, 37);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Высокая";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label5.Location = new System.Drawing.Point(282, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Басовая";
+            // 
             // frequenciesScale1
             // 
             this.frequenciesScale1.BackColor = System.Drawing.Color.White;
-            this.frequenciesScale1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.frequenciesScale1.Location = new System.Drawing.Point(12, 32);
+            this.frequenciesScale1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.frequenciesScale1.Location = new System.Drawing.Point(12, 56);
             this.frequenciesScale1.Name = "frequenciesScale1";
-            this.frequenciesScale1.Size = new System.Drawing.Size(67, 319);
+            this.frequenciesScale1.Size = new System.Drawing.Size(320, 67);
             this.frequenciesScale1.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(207, 365);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(345, 239);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.noteNameTextBox);
             this.Controls.Add(this.label1);
@@ -228,6 +254,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
