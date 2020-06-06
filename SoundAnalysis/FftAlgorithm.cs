@@ -3,7 +3,6 @@
 namespace SoundAnalysis
 {
 
-    // БПФ Кули — Туки
     public static class FftAlgorithm
     {
         //х - входные данные
@@ -32,7 +31,6 @@ namespace SoundAnalysis
                 data[j] = new ComplexNumber(x[i]);
             }
 
-            // Кули-Туки 
             for (int i = 0; i < bitsInLength; i++)
             {
                 int m = 1 << i;
