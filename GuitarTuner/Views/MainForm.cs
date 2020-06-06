@@ -163,6 +163,7 @@ namespace GuitarTuner
 
         private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // запуск процесса
             Process.Start("help.rtf");
         }
 
