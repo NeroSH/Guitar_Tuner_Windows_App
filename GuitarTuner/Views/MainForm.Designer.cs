@@ -60,7 +60,7 @@
             // 
             // listenButton
             // 
-            this.listenButton.Location = new System.Drawing.Point(248, 141);
+            this.listenButton.Location = new System.Drawing.Point(248, 136);
             this.listenButton.Name = "listenButton";
             this.listenButton.Size = new System.Drawing.Size(75, 23);
             this.listenButton.TabIndex = 1;
@@ -71,7 +71,7 @@
             // stopButton
             // 
             this.stopButton.Enabled = false;
-            this.stopButton.Location = new System.Drawing.Point(107, 62);
+            this.stopButton.Location = new System.Drawing.Point(248, 162);
             this.stopButton.Name = "stopButton";
             this.stopButton.Size = new System.Drawing.Size(75, 23);
             this.stopButton.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             // frequencyTextBox
             // 
-            this.frequencyTextBox.Location = new System.Drawing.Point(25, 160);
+            this.frequencyTextBox.Location = new System.Drawing.Point(25, 157);
             this.frequencyTextBox.Name = "frequencyTextBox";
             this.frequencyTextBox.ReadOnly = true;
             this.frequencyTextBox.Size = new System.Drawing.Size(54, 20);
@@ -92,7 +92,7 @@
             // hzLabel
             // 
             this.hzLabel.AutoSize = true;
-            this.hzLabel.Location = new System.Drawing.Point(81, 164);
+            this.hzLabel.Location = new System.Drawing.Point(81, 161);
             this.hzLabel.Name = "hzLabel";
             this.hzLabel.Size = new System.Drawing.Size(19, 13);
             this.hzLabel.TabIndex = 4;
@@ -101,7 +101,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(129, 141);
+            this.label1.Location = new System.Drawing.Point(129, 138);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 6;
@@ -109,7 +109,7 @@
             // 
             // closeFrequencyTextBox
             // 
-            this.closeFrequencyTextBox.Location = new System.Drawing.Point(134, 159);
+            this.closeFrequencyTextBox.Location = new System.Drawing.Point(134, 156);
             this.closeFrequencyTextBox.Name = "closeFrequencyTextBox";
             this.closeFrequencyTextBox.ReadOnly = true;
             this.closeFrequencyTextBox.Size = new System.Drawing.Size(54, 20);
@@ -120,7 +120,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(191, 163);
+            this.label2.Location = new System.Drawing.Point(191, 160);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 13);
             this.label2.TabIndex = 4;
@@ -128,7 +128,7 @@
             // 
             // noteNameTextBox
             // 
-            this.noteNameTextBox.Location = new System.Drawing.Point(155, 185);
+            this.noteNameTextBox.Location = new System.Drawing.Point(155, 182);
             this.noteNameTextBox.Name = "noteNameTextBox";
             this.noteNameTextBox.ReadOnly = true;
             this.noteNameTextBox.Size = new System.Drawing.Size(33, 20);
@@ -137,7 +137,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 141);
+            this.label3.Location = new System.Drawing.Point(18, 138);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 13);
             this.label3.TabIndex = 9;
@@ -200,7 +200,7 @@
             // 
             this.frequenciesScale1.BackColor = System.Drawing.Color.White;
             this.frequenciesScale1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.frequenciesScale1.Location = new System.Drawing.Point(12, 56);
+            this.frequenciesScale1.Location = new System.Drawing.Point(12, 53);
             this.frequenciesScale1.Name = "frequenciesScale1";
             this.frequenciesScale1.Size = new System.Drawing.Size(320, 67);
             this.frequenciesScale1.TabIndex = 0;

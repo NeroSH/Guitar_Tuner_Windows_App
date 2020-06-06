@@ -16,10 +16,10 @@ namespace GuitarTuner
         {
             new ScaleLabel() { Title = "E", Frequency = 82.4069, Color = Color.LightGreen },
             new ScaleLabel() { Title = "A", Frequency = 110.0000, Color = Color.LightGreen },
-            new ScaleLabel() { Title = "D", Frequency = 146.8324, Color = Color.LightGreen },
-            new ScaleLabel() { Title = "G", Frequency = 195.9977, Color = Color.LightGreen },
-            new ScaleLabel() { Title = "B", Frequency = 246.9417, Color = Color.LightGreen },
-            new ScaleLabel() { Title = "E", Frequency = 329.6276, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "d", Frequency = 146.8324, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "g", Frequency = 195.9977, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "b", Frequency = 246.9417, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "e", Frequency = 329.6276, Color = Color.LightGreen },
         };
 
         public void SetNewLabels(ScaleLabel[] scales)
