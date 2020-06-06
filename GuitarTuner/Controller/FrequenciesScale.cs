@@ -1,27 +1,34 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Drawing;
+using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
 namespace GuitarTuner
 {
-    public partial class FrequenciesScale : UserControl
+     partial class FrequenciesScale : UserControl
     {
-        const double MinFrequency = 70;
+        const double MinFrequency = 55;
         const double MaxFrequency = 1200;
         const double AFrequency = 440;
         static double ToneStep = Math.Pow(2, 1.0 / 12);
-        static readonly ScaleLabel[] Labels =
+
+        private static ScaleLabel[] Labels = 
         {
-             new ScaleLabel() { Title = "E", Frequency =  82.4069, Color=Color.LightGreen},
-             new ScaleLabel() { Title = "A", Frequency = 110.0000, Color=Color.LightGreen},
-             new ScaleLabel() { Title = "D", Frequency = 146.8324, Color=Color.LightGreen},
-             new ScaleLabel() { Title = "G", Frequency = 195.9977, Color=Color.LightGreen},
-             new ScaleLabel() { Title = "B", Frequency = 246.9417, Color=Color.LightGreen},
-             new ScaleLabel() { Title = "E", Frequency = 329.6276, Color=Color.LightGreen},
-             new ScaleLabel() { Title = "",  Frequency = 440.0000, Color=Color.Silver}
+            new ScaleLabel() { Title = "E", Frequency = 82.4069, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "A", Frequency = 110.0000, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "d", Frequency = 146.8324, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "g", Frequency = 195.9977, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "b", Frequency = 246.9417, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "e", Frequency = 329.6276, Color = Color.LightGreen },
+            new ScaleLabel() { Title = "", Frequency = 440.0000, Color = Color.Silver }
         };
 
+        public void SetNewLabels(ScaleLabel[] scales)
+        {
+            Labels = scales;
+        }
+        
         double currentFrequency;
 
         [DefaultValue(0.0)]
@@ -163,12 +170,11 @@ namespace GuitarTuner
             return Math.Log(frequency / AFrequency, ToneStep);
         }
 
-    }
-
-    class ScaleLabel
-    {
-        public string Title;
-        public double Frequency;
-        public Color Color;
+        public class ScaleLabel
+        {
+            public string Title;
+            public double Frequency;
+            public Color Color;
+        }
     }
 }

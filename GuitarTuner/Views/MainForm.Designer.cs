@@ -172,7 +172,7 @@
             "Double Drop-D"});
             this.toolStripComboBox1.Name = "toolStripComboBox1";
             this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
-            this.toolStripComboBox1.Click += new System.EventHandler(this.toolStripComboBox1_Click);
+            this.toolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.toolStrip_SelectIndexChanged);
             // 
             // frequenciesScale2
             // 

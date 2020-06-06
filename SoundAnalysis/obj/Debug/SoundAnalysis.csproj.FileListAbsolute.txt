@@ -9,3 +9,9 @@ D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Debug\SoundAnalysis
 D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Debug\SoundAnalysis.csproj.CoreCompileInputs.cache
 D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Debug\SoundAnalysis.dll
 D:\DonSTU\(4) Практика\GuitarTuner\SoundAnalysis\obj\Debug\SoundAnalysis.pdb
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\bin\Debug\SoundAnalysis.dll
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\bin\Debug\SoundAnalysis.pdb
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\obj\Debug\SoundAnalysis.csprojAssemblyReference.cache
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\obj\Debug\SoundAnalysis.csproj.CoreCompileInputs.cache
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\obj\Debug\SoundAnalysis.dll
+D:\DonSTU\(4) Практика\Guitar_Tuner_Windows_App\SoundAnalysis\obj\Debug\SoundAnalysis.pdb
