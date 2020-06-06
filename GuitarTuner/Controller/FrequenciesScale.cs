@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Drawing;
-using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
 namespace GuitarTuner
@@ -9,7 +8,7 @@ namespace GuitarTuner
      partial class FrequenciesScale : UserControl
     {
         const double MinFrequency = 55;
-        const double MaxFrequency = 1200;
+        const double MaxFrequency = 450;
         const double AFrequency = 440;
         static double ToneStep = Math.Pow(2, 1.0 / 12);
 
@@ -21,7 +20,7 @@ namespace GuitarTuner
             new ScaleLabel() { Title = "g", Frequency = 195.9977, Color = Color.LightGreen },
             new ScaleLabel() { Title = "b", Frequency = 246.9417, Color = Color.LightGreen },
             new ScaleLabel() { Title = "e", Frequency = 329.6276, Color = Color.LightGreen },
-            new ScaleLabel() { Title = "", Frequency = 440.0000, Color = Color.Silver }
+            //new ScaleLabel() { Title = "", Frequency = 440.0000, Color = Color.Silver }
         };
 
         public void SetNewLabels(ScaleLabel[] scales)

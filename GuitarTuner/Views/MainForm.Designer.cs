@@ -42,7 +42,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
-            this.frequenciesScale2 = new GuitarTuner.FrequenciesScale(this.components);
             this.frequenciesScale1 = new GuitarTuner.FrequenciesScale(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -149,7 +148,7 @@
             this.toolStripComboBox1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(420, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(207, 27);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -174,15 +173,6 @@
             this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
             this.toolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.toolStrip_SelectIndexChanged);
             // 
-            // frequenciesScale2
-            // 
-            this.frequenciesScale2.BackColor = System.Drawing.Color.White;
-            this.frequenciesScale2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.frequenciesScale2.Location = new System.Drawing.Point(201, 132);
-            this.frequenciesScale2.Name = "frequenciesScale2";
-            this.frequenciesScale2.Size = new System.Drawing.Size(148, 148);
-            this.frequenciesScale2.TabIndex = 10;
-            // 
             // frequenciesScale1
             // 
             this.frequenciesScale1.BackColor = System.Drawing.Color.White;
@@ -196,8 +186,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 365);
-            this.Controls.Add(this.frequenciesScale2);
+            this.ClientSize = new System.Drawing.Size(207, 365);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.noteNameTextBox);
             this.Controls.Add(this.label1);
@@ -236,7 +225,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox noteNameTextBox;
         private System.Windows.Forms.Label label3;
-        private FrequenciesScale frequenciesScale2;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
