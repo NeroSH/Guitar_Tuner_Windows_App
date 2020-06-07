@@ -114,6 +114,8 @@ namespace GuitarTuner
             sw.Close();
             fs.Close();
 
+            this.ClientSize = new Size(700, 240);
+
             SoundCaptureDevice device = null;
             using (SelectDeviceForm form = new SelectDeviceForm())
             {
@@ -143,6 +145,8 @@ namespace GuitarTuner
             sw.WriteLine(DateTime.Now + " Конец записи");
             sw.Close();
             fs.Close();
+
+            this.ClientSize = new Size(343, 240);
 
             StopListenning();
             UpdateListenStopButtons();
