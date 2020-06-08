@@ -121,7 +121,25 @@
     <value />
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Guitar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Release\Guitar.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Tunings\Classic.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoubleDropD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Tunings\DoubleDropD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DropC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Tunings\DropC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DropD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Tunings\DropD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Tunings\OpenC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Tunings\OpenD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Tunings\OpenG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

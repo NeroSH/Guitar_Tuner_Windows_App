@@ -63,9 +63,69 @@ namespace GuitarTuner.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Guitar {
+        internal static System.Drawing.Bitmap Classic {
             get {
-                object obj = ResourceManager.GetObject("Guitar", resourceCulture);
+                object obj = ResourceManager.GetObject("Classic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DoubleDropD {
+            get {
+                object obj = ResourceManager.GetObject("DoubleDropD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DropC {
+            get {
+                object obj = ResourceManager.GetObject("DropC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DropD {
+            get {
+                object obj = ResourceManager.GetObject("DropD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OpenC {
+            get {
+                object obj = ResourceManager.GetObject("OpenC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OpenD {
+            get {
+                object obj = ResourceManager.GetObject("OpenD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OpenG {
+            get {
+                object obj = ResourceManager.GetObject("OpenG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

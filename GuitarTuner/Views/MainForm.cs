@@ -180,6 +180,7 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "b", Frequency = 246.9417, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "e", Frequency = 329.6276, Color = Color.LightGreen },
                     });
+                    pictureBox1.Image = Properties.Resources.Classic;
                     break;
 
                 case 1:
@@ -191,6 +192,7 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "c", Frequency = 261.6317, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "e", Frequency = 329.6276, Color = Color.LightGreen },
                     });
+                    pictureBox1.Image = Properties.Resources.OpenC;
                     break;
 
                 case 2:
@@ -202,6 +204,7 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "a", Frequency = 220.000, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "d", Frequency = 293.6600, Color = Color.LightGreen },
                     });
+                    pictureBox1.Image = Properties.Resources.OpenD;
                     break;
 
                 case 3:
@@ -213,6 +216,7 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "b", Frequency = 246.9400, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "d", Frequency = 293.6600, Color = Color.LightGreen },
                     });
+                    pictureBox1.Image = Properties.Resources.OpenG;
                     break;
 
                 case 4:
@@ -224,6 +228,7 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "a", Frequency = 220.0000, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "d", Frequency = 293.6600, Color = Color.LightGreen },
                     });
+                    pictureBox1.Image = Properties.Resources.DropC;
                     break;
 
                 case 5:
@@ -235,6 +240,7 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "b", Frequency = 246.9400, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "e", Frequency = 329.6300, Color = Color.LightGreen },
                     });
+                    pictureBox1.Image = Properties.Resources.DropD;
                     break;
 
                 case 6:
@@ -246,6 +252,7 @@ namespace GuitarTuner
                         new FrequenciesScale.ScaleLabel() { Title = "b", Frequency = 246.9400, Color = Color.LightGreen },
                         new FrequenciesScale.ScaleLabel() { Title = "d", Frequency = 293.6500, Color = Color.LightGreen },
                     });
+                    pictureBox1.Image = Properties.Resources.DoubleDropD;
                     break;
 
                 default: break;

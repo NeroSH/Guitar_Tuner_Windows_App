@@ -79,6 +79,11 @@
       <DependentUpon>FrequenciesScale.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\FrequencyInfoSource.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Utils\FrequencyUtils.cs" />
     <Compile Include="Views\MainForm.cs">
       <SubType>Form</SubType>
@@ -97,18 +102,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SelectDeviceForm.resx">
       <DependentUpon>SelectDeviceForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -141,7 +141,25 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Release\Guitar.jpg" />
+    <None Include="bin\Release\Tunings\Classic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Tunings\DoubleDropD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Tunings\DropC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Tunings\DropD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Tunings\OpenC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Tunings\OpenD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Tunings\OpenG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
